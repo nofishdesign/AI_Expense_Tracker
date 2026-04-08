@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+
+# Xcode user data
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+# Build artifacts
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.bak.*
+
+# SwiftPM
+.build/
+Packages/
+Package.resolved
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output

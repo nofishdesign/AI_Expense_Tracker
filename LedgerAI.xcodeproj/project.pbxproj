@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DBBC6BA0E5D34A3F93AFC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A81560A1F81A2E2884BD410 /* ContentView.swift */; };
+		04ADA4235D48BD3FEFEBC053 /* LocalRecognitionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34992EFD1C5FE06208D574CB /* LocalRecognitionProvider.swift */; };
+		0BBDFD453AB83988A1BDDE38 /* LedgerAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9495FA309AA5AF72CEEA03 /* LedgerAIApp.swift */; };
+		0BDB8BB5B3B07153BA0E713E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BEC333E3BFB074B0B97E6 /* Category.swift */; };
+		0E8434D48790B4F8F2FC9210 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC48105E609F85EF190AEAB /* StatisticsView.swift */; };
+		192FD396D8FA85C7A9CE1D2C /* LocalRecognitionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34992EFD1C5FE06208D574CB /* LocalRecognitionProvider.swift */; };
+		246CCFBD5C92BA15B0AE3789 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A207875130D1B2658F93ECF1 /* RootTabView.swift */; };
+		2521A5082CA18D7D0948E2D6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DBCFE5E272E83F36531328 /* Item.swift */; };
+		2642FF348BFCFAFEA450C6E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C8E43BA144959B8A2E55D /* Assets.xcassets */; };
+		2DCD56DD28803E0F70AC068E /* LedgerAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763EBBD8CD95C3542A7363E2 /* LedgerAITests.swift */; };
+		2E2B53CFB83C47BA3CE7A215 /* DomainEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BBB96088CAC08B46D9FA36 /* DomainEnums.swift */; };
+		2F34A518957D44206B1B83E3 /* CloudModelEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0EBBE996AB4419E8C13DB3 /* CloudModelEditorSheet.swift */; };
+		32A1AB3937B98C45E760DE22 /* CloudModelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3990CD16D33ABC5DFE92AE96 /* CloudModelConfig.swift */; };
+		334EC9CAC20367D910C2185D /* TransactionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49D1598EE3424515A1E590 /* TransactionParser.swift */; };
+		3759FC9C276A068A32E13FF1 /* TransactionEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF202F9AFFF27D2B96ABAB /* TransactionEditorView.swift */; };
+		37FC815A92D5BCCE2E37AE0D /* LedgerIntakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD73B27EE41E9F690201A62 /* LedgerIntakeService.swift */; };
+		394D124842E4B4AE4E18518E /* CategoryManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF3C616FC528EFA79B7BE3 /* CategoryManagementView.swift */; };
+		3AD4E179BCE20D3FA5AA9EB2 /* CloudModelEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0EBBE996AB4419E8C13DB3 /* CloudModelEditorSheet.swift */; };
+		3D022F2BF3F3027356AB7F3D /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D00BAB30FB8CA4782FC071 /* AppSettings.swift */; };
+		4252CC1095C57B8FD779AAED /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9AF8E1D82EDFFE26EB070 /* UserPreference.swift */; };
+		46614F6769F0068EAD2BAA55 /* TransactionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE77A7CE00A9A3554A3DCE /* TransactionRecord.swift */; };
+		57683B1A74FF46C73CAC77BC /* ReviewQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841097796B234C094B25EA02 /* ReviewQueueView.swift */; };
+		5A4AE0C3F74EF7CF9D4DA4B0 /* ViewInputCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCB387A564A96EAF23B628 /* ViewInputCompat.swift */; };
+		5A733678A21254E69AB0AD21 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DBCFE5E272E83F36531328 /* Item.swift */; };
+		5A7C72D2C316855623FA4E5A /* TransactionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49D1598EE3424515A1E590 /* TransactionParser.swift */; };
+		5B9F4CA4B15B04222F098582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C8E43BA144959B8A2E55D /* Assets.xcassets */; };
+		5BB5B31D9002B8F1BC984922 /* CategoryManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF3C616FC528EFA79B7BE3 /* CategoryManagementView.swift */; };
+		5BFD311879175B231744947B /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9AF8E1D82EDFFE26EB070 /* UserPreference.swift */; };
+		5C992DB9D5FE079CA599E812 /* PaymentTextSanitizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C4BA15C2F5F9474333316 /* PaymentTextSanitizer.swift */; };
+		6106D8F2F988F9C15A74FBE8 /* PlatformSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F8F30994B82565F156EE8 /* PlatformSupport.swift */; };
+		667829608DFA562FFC834EF8 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC48105E609F85EF190AEAB /* StatisticsView.swift */; };
+		6CBD093C1966B2A5B9F58314 /* SeedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966177EC8CD069029529B9CA /* SeedDataService.swift */; };
+		6CD81CE7E27DCA32663EAC30 /* TransactionEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF202F9AFFF27D2B96ABAB /* TransactionEditorView.swift */; };
+		70E71E19EFDE8C70046D522B /* CategoryClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCBAF57F1A92CAFC5A45408 /* CategoryClassifier.swift */; };
+		772C41B34265ADBD9EA8ADBF /* PlatformSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F8F30994B82565F156EE8 /* PlatformSupport.swift */; };
+		796D380634D017F49A84F7E7 /* CloudModelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3990CD16D33ABC5DFE92AE96 /* CloudModelConfig.swift */; };
+		7B76FDF86EDBAD65093B40F0 /* RecognitionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C6C9BD24BFC49FFD7AD7C /* RecognitionProvider.swift */; };
+		7DEF30D0BC482E0545E08DA3 /* TransactionParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2654BD22AECE85EA076F02BD /* TransactionParserTests.swift */; };
+		88305350C6806625A2D94B80 /* OpenAICompatibleCloudProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD594F88AAC40902E9513DD /* OpenAICompatibleCloudProvider.swift */; };
+		885E781C3A3A5107039B366D /* MacRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162BCAC8B47C317D80C9FA16 /* MacRootView.swift */; };
+		8FE1D4EFDE89BE059C14C999 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9610EA4F08043F6283A15FA /* SettingsView.swift */; };
+		9288B1EDA530C10FD8D2E320 /* ParseCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92E95A5253C1573CFE777C /* ParseCandidate.swift */; };
+		93CF060814845A49300D48CE /* SeedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966177EC8CD069029529B9CA /* SeedDataService.swift */; };
+		96AE4CCEBD5750D70F65DE12 /* ParseCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92E95A5253C1573CFE777C /* ParseCandidate.swift */; };
+		97D3EF96143D4E4E0026C355 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BEC333E3BFB074B0B97E6 /* Category.swift */; };
+		991F7F4D9FA4CDA7F133FADB /* RecognitionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C6C9BD24BFC49FFD7AD7C /* RecognitionProvider.swift */; };
+		9CC21E990B1BAADEE471578A /* LedgerAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9495FA309AA5AF72CEEA03 /* LedgerAIApp.swift */; };
+		9D6B3391E2B12EC872FE3D6B /* MacRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162BCAC8B47C317D80C9FA16 /* MacRootView.swift */; };
+		9D77A5336DF2049119F59CD3 /* ViewInputCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCB387A564A96EAF23B628 /* ViewInputCompat.swift */; };
+		A3BB809FEF1D94CF647665C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A81560A1F81A2E2884BD410 /* ContentView.swift */; };
+		A5DFE88C90A289BE6A715E88 /* PaymentTextSanitizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C4BA15C2F5F9474333316 /* PaymentTextSanitizer.swift */; };
+		AA3EBDCD459E14CA35C2E854 /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D850A5C2BC57C0A109416E /* CaptureView.swift */; };
+		AEAC8E0F85F2433EF687E9CF /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A624324DD3D80F8241DDDD46 /* OCRService.swift */; };
+		B747C5192CD07B2CE3202549 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9610EA4F08043F6283A15FA /* SettingsView.swift */; };
+		B7D035056BD6DE8AFE46C23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E7A5A33071646426AE950D /* LaunchScreen.storyboard */; };
+		BAB5E624DF0D9FB03CFB5756 /* TransactionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE77A7CE00A9A3554A3DCE /* TransactionRecord.swift */; };
+		BBEBC523D0E4A24241FE04CD /* LedgerIntakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD73B27EE41E9F690201A62 /* LedgerIntakeService.swift */; };
+		C0DDBD4B4D36A9B17E44707C /* RecognitionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C3E10336FF3DEEEC418135 /* RecognitionTypes.swift */; };
+		C1D1B205A9A31BCB6970DEAA /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A624324DD3D80F8241DDDD46 /* OCRService.swift */; };
+		C4CD296BF8B7B56C72EB6CBE /* SpeechRecognizerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA115E7B2935B7587AFC6E /* SpeechRecognizerService.swift */; };
+		C538095FF8FD2CE1CF67F947 /* CaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A55CAEFC0958B6D1DD6695 /* CaptureViewModel.swift */; };
+		C60FD668B677796C3B580E8B /* LedgerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF9906EB65C8ADD346601D /* LedgerListView.swift */; };
+		CF12565986679EB5F99FC02C /* CategoryClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCBAF57F1A92CAFC5A45408 /* CategoryClassifier.swift */; };
+		D719F516E4FB2081070E196A /* CaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A55CAEFC0958B6D1DD6695 /* CaptureViewModel.swift */; };
+		DC89BFE6CDF634809ED4D6A4 /* ReviewQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841097796B234C094B25EA02 /* ReviewQueueView.swift */; };
+		DD2DF607965282086E390034 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D00BAB30FB8CA4782FC071 /* AppSettings.swift */; };
+		EEF0E9318F0874A96656671F /* DomainEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BBB96088CAC08B46D9FA36 /* DomainEnums.swift */; };
+		EF10318D7354B46104EB817F /* RecognitionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C3E10336FF3DEEEC418135 /* RecognitionTypes.swift */; };
+		F46C69F88DDDD1EA9568BBB1 /* LedgerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF9906EB65C8ADD346601D /* LedgerListView.swift */; };
+		F6CFC3FCF56AB4D51536B250 /* OpenAICompatibleCloudProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD594F88AAC40902E9513DD /* OpenAICompatibleCloudProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57948EAE4E54A0D671D9C82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A09FFD7FF3DD33603816D34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF1F50F09FB667EE1118C06;
+			remoteInfo = LedgerAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A9F8F30994B82565F156EE8 /* PlatformSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformSupport.swift; sourceTree = "<group>"; };
+		0B3C4BA15C2F5F9474333316 /* PaymentTextSanitizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTextSanitizer.swift; sourceTree = "<group>"; };
+		0E271624D1A5A621F718D93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FAA115E7B2935B7587AFC6E /* SpeechRecognizerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerService.swift; sourceTree = "<group>"; };
+		162BCAC8B47C317D80C9FA16 /* MacRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacRootView.swift; sourceTree = "<group>"; };
+		16A55CAEFC0958B6D1DD6695 /* CaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewModel.swift; sourceTree = "<group>"; };
+		2654BD22AECE85EA076F02BD /* TransactionParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionParserTests.swift; sourceTree = "<group>"; };
+		2D3F65EE72A86DFCA4AAE05B /* LedgerAITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LedgerAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD73B27EE41E9F690201A62 /* LedgerIntakeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerIntakeService.swift; sourceTree = "<group>"; };
+		34992EFD1C5FE06208D574CB /* LocalRecognitionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecognitionProvider.swift; sourceTree = "<group>"; };
+		3990CD16D33ABC5DFE92AE96 /* CloudModelConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudModelConfig.swift; sourceTree = "<group>"; };
+		3AC48105E609F85EF190AEAB /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		3C3C8E43BA144959B8A2E55D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DD594F88AAC40902E9513DD /* OpenAICompatibleCloudProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAICompatibleCloudProvider.swift; sourceTree = "<group>"; };
+		4B49D1598EE3424515A1E590 /* TransactionParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionParser.swift; sourceTree = "<group>"; };
+		4FDF3C616FC528EFA79B7BE3 /* CategoryManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManagementView.swift; sourceTree = "<group>"; };
+		5AEF202F9AFFF27D2B96ABAB /* TransactionEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionEditorView.swift; sourceTree = "<group>"; };
+		60EF9906EB65C8ADD346601D /* LedgerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerListView.swift; sourceTree = "<group>"; };
+		6A81560A1F81A2E2884BD410 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A8C6C9BD24BFC49FFD7AD7C /* RecognitionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionProvider.swift; sourceTree = "<group>"; };
+		70BBB96088CAC08B46D9FA36 /* DomainEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainEnums.swift; sourceTree = "<group>"; };
+		763EBBD8CD95C3542A7363E2 /* LedgerAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerAITests.swift; sourceTree = "<group>"; };
+		79482D22154509950358D0AA /* LedgerAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LedgerAI.entitlements; sourceTree = "<group>"; };
+		841097796B234C094B25EA02 /* ReviewQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewQueueView.swift; sourceTree = "<group>"; };
+		966177EC8CD069029529B9CA /* SeedDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedDataService.swift; sourceTree = "<group>"; };
+		96D00BAB30FB8CA4782FC071 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		9A92E95A5253C1573CFE777C /* ParseCandidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseCandidate.swift; sourceTree = "<group>"; };
+		9DCBAF57F1A92CAFC5A45408 /* CategoryClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryClassifier.swift; sourceTree = "<group>"; };
+		9F0EBBE996AB4419E8C13DB3 /* CloudModelEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudModelEditorSheet.swift; sourceTree = "<group>"; };
+		A207875130D1B2658F93ECF1 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		A624324DD3D80F8241DDDD46 /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		A6DBCFE5E272E83F36531328 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AC9495FA309AA5AF72CEEA03 /* LedgerAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerAIApp.swift; sourceTree = "<group>"; };
+		B4D850A5C2BC57C0A109416E /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		B4D8D909548AB4765896CA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C20BEC333E3BFB074B0B97E6 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C2E9AF8E1D82EDFFE26EB070 /* UserPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreference.swift; sourceTree = "<group>"; };
+		C6BE77A7CE00A9A3554A3DCE /* TransactionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRecord.swift; sourceTree = "<group>"; };
+		E1DCB387A564A96EAF23B628 /* ViewInputCompat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInputCompat.swift; sourceTree = "<group>"; };
+		E7C3E10336FF3DEEEC418135 /* RecognitionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionTypes.swift; sourceTree = "<group>"; };
+		E9610EA4F08043F6283A15FA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ED690063EDFCCD2596244F7B /* LedgerAIMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LedgerAIMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC8E029C8DA8EFF07D94AF9 /* LedgerAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LedgerAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		41C88AB7C444D2866F678828 /* LedgerAITests */ = {
+			isa = PBXGroup;
+			children = (
+				763EBBD8CD95C3542A7363E2 /* LedgerAITests.swift */,
+				2654BD22AECE85EA076F02BD /* TransactionParserTests.swift */,
+			);
+			name = LedgerAITests;
+			path = LedgerAI/LedgerAI/LedgerAITests;
+			sourceTree = "<group>";
+		};
+		825D9DEA016FBBD9FC1D4755 = {
+			isa = PBXGroup;
+			children = (
+				BB6579601891621151FF39D0 /* LedgerAI */,
+				41C88AB7C444D2866F678828 /* LedgerAITests */,
+				DFC1438C9D0C7E4E39638FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9077E201FCDD6A6C36451016 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9DCBAF57F1A92CAFC5A45408 /* CategoryClassifier.swift */,
+				2DD73B27EE41E9F690201A62 /* LedgerIntakeService.swift */,
+				34992EFD1C5FE06208D574CB /* LocalRecognitionProvider.swift */,
+				A624324DD3D80F8241DDDD46 /* OCRService.swift */,
+				3DD594F88AAC40902E9513DD /* OpenAICompatibleCloudProvider.swift */,
+				0B3C4BA15C2F5F9474333316 /* PaymentTextSanitizer.swift */,
+				0A9F8F30994B82565F156EE8 /* PlatformSupport.swift */,
+				6A8C6C9BD24BFC49FFD7AD7C /* RecognitionProvider.swift */,
+				E7C3E10336FF3DEEEC418135 /* RecognitionTypes.swift */,
+				966177EC8CD069029529B9CA /* SeedDataService.swift */,
+				0FAA115E7B2935B7587AFC6E /* SpeechRecognizerService.swift */,
+				4B49D1598EE3424515A1E590 /* TransactionParser.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9582639D361D792490A9442F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				96D00BAB30FB8CA4782FC071 /* AppSettings.swift */,
+				C20BEC333E3BFB074B0B97E6 /* Category.swift */,
+				3990CD16D33ABC5DFE92AE96 /* CloudModelConfig.swift */,
+				70BBB96088CAC08B46D9FA36 /* DomainEnums.swift */,
+				9A92E95A5253C1573CFE777C /* ParseCandidate.swift */,
+				C6BE77A7CE00A9A3554A3DCE /* TransactionRecord.swift */,
+				C2E9AF8E1D82EDFFE26EB070 /* UserPreference.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9750A045D2137AC3A611711E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4D850A5C2BC57C0A109416E /* CaptureView.swift */,
+				4FDF3C616FC528EFA79B7BE3 /* CategoryManagementView.swift */,
+				9F0EBBE996AB4419E8C13DB3 /* CloudModelEditorSheet.swift */,
+				60EF9906EB65C8ADD346601D /* LedgerListView.swift */,
+				162BCAC8B47C317D80C9FA16 /* MacRootView.swift */,
+				841097796B234C094B25EA02 /* ReviewQueueView.swift */,
+				A207875130D1B2658F93ECF1 /* RootTabView.swift */,
+				E9610EA4F08043F6283A15FA /* SettingsView.swift */,
+				3AC48105E609F85EF190AEAB /* StatisticsView.swift */,
+				5AEF202F9AFFF27D2B96ABAB /* TransactionEditorView.swift */,
+				E1DCB387A564A96EAF23B628 /* ViewInputCompat.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB6579601891621151FF39D0 /* LedgerAI */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C8E43BA144959B8A2E55D /* Assets.xcassets */,
+				6A81560A1F81A2E2884BD410 /* ContentView.swift */,
+				B4D8D909548AB4765896CA47 /* Info.plist */,
+				A6DBCFE5E272E83F36531328 /* Item.swift */,
+				79482D22154509950358D0AA /* LedgerAI.entitlements */,
+				AC9495FA309AA5AF72CEEA03 /* LedgerAIApp.swift */,
+				19E7A5A33071646426AE950D /* LaunchScreen.storyboard */,
+				9582639D361D792490A9442F /* Models */,
+				9077E201FCDD6A6C36451016 /* Services */,
+				D36CD4314FA688FFAE8B6BAB /* ViewModels */,
+				9750A045D2137AC3A611711E /* Views */,
+			);
+			name = LedgerAI;
+			path = LedgerAI/LedgerAI/LedgerAI;
+			sourceTree = "<group>";
+		};
+		D36CD4314FA688FFAE8B6BAB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				16A55CAEFC0958B6D1DD6695 /* CaptureViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DFC1438C9D0C7E4E39638FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8E029C8DA8EFF07D94AF9 /* LedgerAI.app */,
+				ED690063EDFCCD2596244F7B /* LedgerAIMac.app */,
+				2D3F65EE72A86DFCA4AAE05B /* LedgerAITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280944B3D9F39018F290BF36 /* LedgerAIMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24DC4DCB1F0FC30B8E95BD2 /* Build configuration list for PBXNativeTarget "LedgerAIMac" */;
+			buildPhases = (
+				E247D27BDAED39D1667946F6 /* Sources */,
+				00071EE45C54744648EDCF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LedgerAIMac;
+			packageProductDependencies = (
+			);
+			productName = LedgerAIMac;
+			productReference = ED690063EDFCCD2596244F7B /* LedgerAIMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		381ACD13384674EC1B9D9556 /* LedgerAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16706CE5DABD78535229364 /* Build configuration list for PBXNativeTarget "LedgerAITests" */;
+			buildPhases = (
+				9B05537BA2930818A0F6DCAD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A0A65925CB3D58C41F23731 /* PBXTargetDependency */,
+			);
+			name = LedgerAITests;
+			packageProductDependencies = (
+			);
+			productName = LedgerAITests;
+			productReference = 2D3F65EE72A86DFCA4AAE05B /* LedgerAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBF1F50F09FB667EE1118C06 /* LedgerAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0B12ED5C0030C788FBF01A1 /* Build configuration list for PBXNativeTarget "LedgerAI" */;
+			buildPhases = (
+				CF810C8ED2331F6D7A1E9DE5 /* Sources */,
+				DEB99E55E1CB6DF177C94C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LedgerAI;
+			packageProductDependencies = (
+			);
+			productName = LedgerAI;
+			productReference = FCC8E029C8DA8EFF07D94AF9 /* LedgerAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A09FFD7FF3DD33603816D34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = A518B99EB6E65667B933542A /* Build configuration list for PBXProject "LedgerAI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 825D9DEA016FBBD9FC1D4755;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DFC1438C9D0C7E4E39638FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF1F50F09FB667EE1118C06 /* LedgerAI */,
+				280944B3D9F39018F290BF36 /* LedgerAIMac */,
+				381ACD13384674EC1B9D9556 /* LedgerAITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00071EE45C54744648EDCF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2642FF348BFCFAFEA450C6E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB99E55E1CB6DF177C94C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9F4CA4B15B04222F098582 /* Assets.xcassets in Resources */,
+				B7D035056BD6DE8AFE46C23A /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B05537BA2930818A0F6DCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD56DD28803E0F70AC068E /* LedgerAITests.swift in Sources */,
+				7DEF30D0BC482E0545E08DA3 /* TransactionParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF810C8ED2331F6D7A1E9DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D022F2BF3F3027356AB7F3D /* AppSettings.swift in Sources */,
+				AA3EBDCD459E14CA35C2E854 /* CaptureView.swift in Sources */,
+				C538095FF8FD2CE1CF67F947 /* CaptureViewModel.swift in Sources */,
+				0BDB8BB5B3B07153BA0E713E /* Category.swift in Sources */,
+				CF12565986679EB5F99FC02C /* CategoryClassifier.swift in Sources */,
+				394D124842E4B4AE4E18518E /* CategoryManagementView.swift in Sources */,
+				32A1AB3937B98C45E760DE22 /* CloudModelConfig.swift in Sources */,
+				3AD4E179BCE20D3FA5AA9EB2 /* CloudModelEditorSheet.swift in Sources */,
+				01DBBC6BA0E5D34A3F93AFC9 /* ContentView.swift in Sources */,
+				2E2B53CFB83C47BA3CE7A215 /* DomainEnums.swift in Sources */,
+				2521A5082CA18D7D0948E2D6 /* Item.swift in Sources */,
+				9CC21E990B1BAADEE471578A /* LedgerAIApp.swift in Sources */,
+				37FC815A92D5BCCE2E37AE0D /* LedgerIntakeService.swift in Sources */,
+				F46C69F88DDDD1EA9568BBB1 /* LedgerListView.swift in Sources */,
+				192FD396D8FA85C7A9CE1D2C /* LocalRecognitionProvider.swift in Sources */,
+				885E781C3A3A5107039B366D /* MacRootView.swift in Sources */,
+				AEAC8E0F85F2433EF687E9CF /* OCRService.swift in Sources */,
+				88305350C6806625A2D94B80 /* OpenAICompatibleCloudProvider.swift in Sources */,
+				9288B1EDA530C10FD8D2E320 /* ParseCandidate.swift in Sources */,
+				5C992DB9D5FE079CA599E812 /* PaymentTextSanitizer.swift in Sources */,
+				6106D8F2F988F9C15A74FBE8 /* PlatformSupport.swift in Sources */,
+				7B76FDF86EDBAD65093B40F0 /* RecognitionProvider.swift in Sources */,
+				C0DDBD4B4D36A9B17E44707C /* RecognitionTypes.swift in Sources */,
+				57683B1A74FF46C73CAC77BC /* ReviewQueueView.swift in Sources */,
+				246CCFBD5C92BA15B0AE3789 /* RootTabView.swift in Sources */,
+				6CBD093C1966B2A5B9F58314 /* SeedDataService.swift in Sources */,
+				8FE1D4EFDE89BE059C14C999 /* SettingsView.swift in Sources */,
+				C4CD296BF8B7B56C72EB6CBE /* SpeechRecognizerService.swift in Sources */,
+				0E8434D48790B4F8F2FC9210 /* StatisticsView.swift in Sources */,
+				3759FC9C276A068A32E13FF1 /* TransactionEditorView.swift in Sources */,
+				5A7C72D2C316855623FA4E5A /* TransactionParser.swift in Sources */,
+				46614F6769F0068EAD2BAA55 /* TransactionRecord.swift in Sources */,
+				4252CC1095C57B8FD779AAED /* UserPreference.swift in Sources */,
+				9D77A5336DF2049119F59CD3 /* ViewInputCompat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E247D27BDAED39D1667946F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2DF607965282086E390034 /* AppSettings.swift in Sources */,
+				D719F516E4FB2081070E196A /* CaptureViewModel.swift in Sources */,
+				97D3EF96143D4E4E0026C355 /* Category.swift in Sources */,
+				70E71E19EFDE8C70046D522B /* CategoryClassifier.swift in Sources */,
+				5BB5B31D9002B8F1BC984922 /* CategoryManagementView.swift in Sources */,
+				796D380634D017F49A84F7E7 /* CloudModelConfig.swift in Sources */,
+				2F34A518957D44206B1B83E3 /* CloudModelEditorSheet.swift in Sources */,
+				A3BB809FEF1D94CF647665C7 /* ContentView.swift in Sources */,
+				EEF0E9318F0874A96656671F /* DomainEnums.swift in Sources */,
+				5A733678A21254E69AB0AD21 /* Item.swift in Sources */,
+				0BBDFD453AB83988A1BDDE38 /* LedgerAIApp.swift in Sources */,
+				BBEBC523D0E4A24241FE04CD /* LedgerIntakeService.swift in Sources */,
+				C60FD668B677796C3B580E8B /* LedgerListView.swift in Sources */,
+				04ADA4235D48BD3FEFEBC053 /* LocalRecognitionProvider.swift in Sources */,
+				9D6B3391E2B12EC872FE3D6B /* MacRootView.swift in Sources */,
+				C1D1B205A9A31BCB6970DEAA /* OCRService.swift in Sources */,
+				F6CFC3FCF56AB4D51536B250 /* OpenAICompatibleCloudProvider.swift in Sources */,
+				96AE4CCEBD5750D70F65DE12 /* ParseCandidate.swift in Sources */,
+				A5DFE88C90A289BE6A715E88 /* PaymentTextSanitizer.swift in Sources */,
+				772C41B34265ADBD9EA8ADBF /* PlatformSupport.swift in Sources */,
+				991F7F4D9FA4CDA7F133FADB /* RecognitionProvider.swift in Sources */,
+				EF10318D7354B46104EB817F /* RecognitionTypes.swift in Sources */,
+				DC89BFE6CDF634809ED4D6A4 /* ReviewQueueView.swift in Sources */,
+				93CF060814845A49300D48CE /* SeedDataService.swift in Sources */,
+				B747C5192CD07B2CE3202549 /* SettingsView.swift in Sources */,
+				667829608DFA562FFC834EF8 /* StatisticsView.swift in Sources */,
+				6CD81CE7E27DCA32663EAC30 /* TransactionEditorView.swift in Sources */,
+				334EC9CAC20367D910C2185D /* TransactionParser.swift in Sources */,
+				BAB5E624DF0D9FB03CFB5756 /* TransactionRecord.swift in Sources */,
+				5BFD311879175B231744947B /* UserPreference.swift in Sources */,
+				5A4AE0C3F74EF7CF9D4DA4B0 /* ViewInputCompat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A0A65925CB3D58C41F23731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF1F50F09FB667EE1118C06 /* LedgerAI */;
+			targetProxy = 57948EAE4E54A0D671D9C82F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19E7A5A33071646426AE950D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E271624D1A5A621F718D93E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07DF14A0C10D0C6E16CE5D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 454SN2P7X7;
+				INFOPLIST_FILE = LedgerAI/LedgerAI/LedgerAI/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "用于录制语音记账。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择截图进行 OCR 识别。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "用于将语音内容转为记账文本。";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ledgerai;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13CB3A4AFFA997212B265203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LedgerAI/LedgerAI/LedgerAI/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "用于录制语音记账。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择截图进行 OCR 识别。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "用于将语音内容转为记账文本。";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ledgerai.mac;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		424B5BC144434B32C48F5475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LedgerAI.app/LedgerAI";
+			};
+			name = Debug;
+		};
+		4DBA5894F0A2B864DFA1D4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.1;
+			};
+			name = Debug;
+		};
+		7EB902D7FD8DF61ED41FAC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LedgerAI/LedgerAI/LedgerAI/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "用于录制语音记账。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择截图进行 OCR 识别。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "用于将语音内容转为记账文本。";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ledgerai.mac;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96CAEFF52DBAD242A8885497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LedgerAI.app/LedgerAI";
+			};
+			name = Release;
+		};
+		FDB9460875EAF35949110866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 454SN2P7X7;
+				INFOPLIST_FILE = LedgerAI/LedgerAI/LedgerAI/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "用于录制语音记账。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择截图进行 OCR 识别。";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "用于将语音内容转为记账文本。";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ledgerai;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFAA2B1E3D0591780C48E9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A518B99EB6E65667B933542A /* Build configuration list for PBXProject "LedgerAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBA5894F0A2B864DFA1D4A2 /* Debug */,
+				FFAA2B1E3D0591780C48E9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C16706CE5DABD78535229364 /* Build configuration list for PBXNativeTarget "LedgerAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424B5BC144434B32C48F5475 /* Debug */,
+				96CAEFF52DBAD242A8885497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0B12ED5C0030C788FBF01A1 /* Build configuration list for PBXNativeTarget "LedgerAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DF14A0C10D0C6E16CE5D95 /* Debug */,
+				FDB9460875EAF35949110866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F24DC4DCB1F0FC30B8E95BD2 /* Build configuration list for PBXNativeTarget "LedgerAIMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CB3A4AFFA997212B265203 /* Debug */,
+				7EB902D7FD8DF61ED41FAC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A09FFD7FF3DD33603816D34 /* Project object */;
+}
